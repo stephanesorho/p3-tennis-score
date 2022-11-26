@@ -12,6 +12,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import IndexPage from "./pages/indexPage.js";
 import RulesPage from "./pages/rulesPage.js";
 import ErrorPage from "./pages/errorPage.js";
+import AddPlayer from "./components/AddPlayer.js";
+import Editlayer from "./components/EditPlayer.js";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
   {
     path: "/rules",
     element: <RulesPage></RulesPage>,
+  },
+  {
+    path: "/create",
+    element: <AddPlayer></AddPlayer>,
+  },
+  {
+    path: "/edit",
+    element: <Editlayer></Editlayer>,
   },
 ]);
 
