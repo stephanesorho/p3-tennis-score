@@ -13,7 +13,6 @@ function MyMongoDB() {
     try {
       client = new MongoClient(url);
 
-      //TODO Handle errors
       const colPoints = client.db(DB_NAME).collection(POINTS_COL);
 
       const query = {};
