@@ -1,8 +1,8 @@
 # Project 3: Tennis Score App [deployment](https://tennis-score-app.onrender.com/)
 
-This is basic react application was made to perform CRUD operations on a data table storing the scores of the players in a tennis match.
+[Design document](https://docs.google.com/document/d/1VgwMKVsohhOsmwjhokl076lA_3WfCfzL/edit?usp=sharing&ouid=111823684851826187074&rtpof=true&sd=true) | [Project Video](https://youtu.be/HrXIgWXDpMA
 
-Design document: https://docs.google.com/document/d/1VgwMKVsohhOsmwjhokl076lA_3WfCfzL/edit?usp=sharing&ouid=111823684851826187074&rtpof=true&sd=true
+This is basic react application was made to perform CRUD operations on a data table storing the scores of the players in a tennis match.
 
 The web application is made out of 2 pages: the scores page and the rules page
 
