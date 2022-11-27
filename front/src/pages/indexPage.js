@@ -1,6 +1,7 @@
 import Match from "../components/Match.js";
-
 import BasePage from "./basePage.js";
+import racketimg from "../images/rackets.jpg";
+import "../index.css";
 
 function IndexPage() {
   console.log("render App");
@@ -9,6 +10,7 @@ function IndexPage() {
     <BasePage>
       <div className="IndexPage">
         <h1>Tennis Match</h1>
+        <img src={racketimg} alt="" id="rackets" />
         <Match></Match>
       </div>
     </BasePage>

@@ -1,6 +1,7 @@
 import React from "react";
-
 import BasePage from "./basePage.js";
+import racketimg from "../images/rackets.jpg";
+import "../index.css";
 
 function RulesPage() {
   return (
@@ -8,6 +9,7 @@ function RulesPage() {
       {" "}
       <div>
         <h1>Match Rules</h1>
+        <img src={racketimg} alt="" id="rackets" />
         <h3>Object of the Game</h3>
         <p>
           The game of tennis played on a rectangular court with a net running

@@ -1,8 +1,14 @@
 import React from "react";
-// import PropTypes from "prop-types";
+import ballimg from "../images/ball.png";
+import "./footer.css";
 
 function Footer() {
-  return <div className="Footer">Tennis score app footer</div>;
+  return (
+    <div className="Footer">
+      <img src={ballimg} alt="" id="ball" />
+      Tennis score app by Stephane
+    </div>
+  );
 }
 
 Footer.propTypes = {};
