@@ -12,6 +12,11 @@ The web application is made out of 2 pages: the scores page and the rules page
 
 ![Screen Shot 2022-11-26 at 6 08 17 PM](https://user-images.githubusercontent.com/97770592/204116083-81f018e0-c0c1-4e97-bade-4a747f7cd6cd.png)
 
+*When clicking on the Add Player button, this page with fields from the table pops up:
+
+![Screen Shot 2022-11-27 at 4 02 07 PM](https://user-images.githubusercontent.com/97770592/204167029-c450b633-ad26-46f1-aeb0-00fb9e355814.png)
+
+
 Use the navbar to access the rules page and navigate between pages
 
 ![Screen Shot 2022-11-26 at 6 09 27 PM](https://user-images.githubusercontent.com/97770592/204116109-dcf804e1-9193-49d4-a283-d454e8fd113e.png)
