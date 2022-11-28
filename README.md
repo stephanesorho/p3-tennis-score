@@ -1,5 +1,8 @@
 # Project 3: Tennis Score App [deployment](https://tennis-score-app.onrender.com/)
 
+**60% Milestone**: Generated backend and fronted with db file implemented in backend
+**80% Milestone**: Worked on componenets in the front file - needed to work on section formatting add small CSS
+
 [Design document](https://docs.google.com/document/d/1VgwMKVsohhOsmwjhokl076lA_3WfCfzL/edit?usp=sharing&ouid=111823684851826187074&rtpof=true&sd=true) | [Project Video](https://youtu.be/HrXIgWXDpMA)
 
 This is basic react application was made to perform CRUD operations on a data table storing the scores of the players in a tennis match.
