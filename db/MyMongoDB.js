@@ -28,3 +28,7 @@ function MyMongoDB() {
 }
 
 export const myDB = MyMongoDB();
+
+/*
+Overall, the MongoDB collection is complete implemented. Looks to me, keep it up!
+*/
