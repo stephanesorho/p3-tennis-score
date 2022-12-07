@@ -4,10 +4,12 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div className="Footer">
-      <img src={ballimg} alt="" id="ball" />
-      Tennis score app by Stephane
-    </div>
+    <footer>
+      <div className="Footer">
+        <img src={ballimg} alt="" id="ball" />
+        Tennis score app by Stephane
+      </div>
+    </footer>
   );
 }
 

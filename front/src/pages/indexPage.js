@@ -9,7 +9,7 @@ function IndexPage() {
   return (
     <BasePage>
       <div className="IndexPage">
-        <h1>Tennis Match</h1>
+        <h1>Players Scores</h1>
         <img src={racketimg} alt="" id="rackets" />
         <Match></Match>
       </div>

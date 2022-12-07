@@ -14,6 +14,9 @@ function AddPlayer() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert(JSON.stringify(player, null, 2));
+    alert(JSON.stringify(points, null, 2));
+    alert(JSON.stringify(set, null, 2));
 
     const ids = uuid();
     let uniqueId = ids.slice(0, 8);

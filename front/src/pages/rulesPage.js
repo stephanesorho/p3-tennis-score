@@ -10,7 +10,7 @@ function RulesPage() {
       <div>
         <h1>Match Rules</h1>
         <img src={racketimg} alt="" id="rackets" />
-        <h3>Object of the Game</h3>
+        <h2>Object of the Game</h2>
         <p>
           The game of tennis played on a rectangular court with a net running
           across the centre. The aim is to hit the ball over the net landing the
@@ -18,7 +18,7 @@ function RulesPage() {
           opponent being unable to return the ball. You win a point every time
           your opponent is unable to return the ball within the court.
         </p>
-        <h3>Starting the Game</h3>
+        <h2>Starting the Game</h2>
         <p>
           To determine who serves first, you flip a coin or (more likely) spin a
           racket. Whoever wins the toss gets to decide one of four things: that
@@ -31,7 +31,7 @@ function RulesPage() {
           anywhere between the singles sideline and the center mark on the
           court.
         </p>
-        <h3>Scoring</h3>
+        <h2>Scoring</h2>
         <p>
           You need to score four points to win a game of tennis. The points are
           known as 15 (1 point), 30 (two points), 40 (three points) and the

@@ -18,6 +18,9 @@ function EditPlayer() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert(JSON.stringify(player, null, 2));
+    alert(JSON.stringify(points, null, 2));
+    alert(JSON.stringify(sets, null, 2));
 
     let a = Players[index];
     a.Player = player;
@@ -30,7 +33,7 @@ function EditPlayer() {
   useEffect(() => {
     setPlayer(localStorage.getItem("Player"));
     setPoints(localStorage.getItem("Points"));
-    setSets(localStorage.getItem("Player"));
+    setSets(localStorage.getItem("Sets"));
     setId(localStorage.getItem("Id"));
   }, []);
 
