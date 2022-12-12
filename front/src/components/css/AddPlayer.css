@@ -1,0 +1,26 @@
+p {
+  color: rgb(173, 27, 27);
+  background: #ffffff;
+  border-top-right-radius: 2cm;
+  border-bottom-right-radius: 2cm;
+  font-weight: bold;
+  font-size: large;
+}
+
+button#submit {
+  font-family: Arial, Helvetica, sans-serif arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button#cancel {
+  background: rgba(201, 15, 15, 0.781);
+  border: rgba(201, 15, 15, 0.781);
+  font-family: Arial, Helvetica, sans-serif arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button#cancel:hover {
+  background-color: rgba(165, 12, 12, 0.774);
+}

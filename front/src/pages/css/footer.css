@@ -1,0 +1,13 @@
+footer {
+  color: #fff;
+  background-color: #080640;
+  width: 6.5cm;
+  margin-top: 2cm;
+  border-top-right-radius: 2cm;
+  border-bottom-right-radius: 2cm;
+}
+
+img#ball {
+  width: 25px;
+  height: 25px;
+}

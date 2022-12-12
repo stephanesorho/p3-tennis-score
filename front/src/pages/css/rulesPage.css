@@ -1,0 +1,21 @@
+h1 {
+  color: #fff;
+  background: #000;
+}
+
+h2 {
+  margin-top: 0.75cm;
+  color: #fff;
+  text-align: center;
+  background: #080640;
+  border-top-right-radius: 2cm;
+  border-bottom-right-radius: 2cm;
+}
+
+.rulesP {
+  margin-top: 0.5cm;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  background: #fff;
+}

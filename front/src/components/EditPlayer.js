@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Button, Form } from "react-bootstrap";
+import { Button, Container, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Players from "./Players.js";
 import { useNavigate } from "react-router-dom";
+import "./css/EditPlayer.css";
 
 function EditPlayer() {
   const [id, setId] = useState("");
@@ -16,16 +17,13 @@ function EditPlayer() {
     return e.id;
   }).indexOf(id);
 
-  const handleSubmit = (e) => {
+  const handleUpdate = (e) => {
     e.preventDefault();
-    alert(JSON.stringify(player, null, 2));
-    alert(JSON.stringify(points, null, 2));
-    alert(JSON.stringify(sets, null, 2));
 
-    let a = Players[index];
-    a.Player = player;
-    a.Points = points;
-    a.Sets = sets;
+    let p = Players[index];
+    p.Player = player;
+    p.Points = points;
+    p.Sets = sets;
 
     history("/");
   };
@@ -36,6 +34,11 @@ function EditPlayer() {
     setSets(localStorage.getItem("Sets"));
     setId(localStorage.getItem("Id"));
   }, []);
+
+  const handleCancel = (e) => {
+    e.preventDefault();
+    history("/");
+  };
 
   return (
     <div>
@@ -64,9 +67,15 @@ function EditPlayer() {
           required
           onChange={(e) => setSets(e.target.value)}
         ></Form.Control>
-        <Button onClick={(e) => handleSubmit(e)} type="update">
-          Update
-        </Button>
+        <Container>
+          <Button id="update" onClick={(e) => handleUpdate(e)} type="update">
+            Update
+          </Button>
+          &nbsp;
+          <Button id="cancel" onClick={(e) => handleCancel(e)} type="cancel">
+            Cancel
+          </Button>
+        </Container>
       </Form>
     </div>
   );

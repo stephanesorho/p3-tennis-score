@@ -1,17 +1,15 @@
 import React from "react";
 import BasePage from "./basePage.js";
-import racketimg from "../images/rackets.jpg";
-import "../index.css";
+import "./css/rulesPage.css";
 
 function RulesPage() {
   return (
     <BasePage>
       {" "}
       <div>
-        <h1>Match Rules</h1>
-        <img src={racketimg} alt="" id="rackets" />
+        <h1>Tennis Rules</h1>
         <h2>Object of the Game</h2>
-        <p>
+        <p className="rulesP">
           The game of tennis played on a rectangular court with a net running
           across the centre. The aim is to hit the ball over the net landing the
           ball within the margins of the court and in a way that results in your
@@ -19,7 +17,7 @@ function RulesPage() {
           your opponent is unable to return the ball within the court.
         </p>
         <h2>Starting the Game</h2>
-        <p>
+        <p className="rulesP">
           To determine who serves first, you flip a coin or (more likely) spin a
           racket. Whoever wins the toss gets to decide one of four things: that
           they want to serve first, that they want to receive first, which side
@@ -32,7 +30,7 @@ function RulesPage() {
           court.
         </p>
         <h2>Scoring</h2>
-        <p>
+        <p className="rulesP">
           You need to score four points to win a game of tennis. The points are
           known as 15 (1 point), 30 (two points), 40 (three points) and the
           fourth would result in the winning point and the end of that game. If

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Button, Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Match.css";
+import "./css/Match.css";
 
 import Players from "./Players.js";
 import { Link, useNavigate } from "react-router-dom";
@@ -29,13 +29,21 @@ function Match() {
   return (
     <Fragment>
       <div className="fragment">
-        <Table striped bordered hover size="sm">
+        <Table>
           <thead>
             <tr>
-              <th>Player</th>
-              <th>Points</th>
-              <th>Sets Won</th>
-              <th>Actions</th>
+              <th>
+                <span>Players</span>
+              </th>
+              <th>
+                <span>Points</span>
+              </th>
+              <th>
+                <span>Sets</span>
+              </th>
+              <th>
+                <span>Actions</span>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -43,12 +51,19 @@ function Match() {
               ? Players.map((item) => {
                   return (
                     <tr>
-                      <td>{item.Player}</td>
-                      <td>{item.Points}</td>
-                      <td>{item.Sets}</td>
+                      <td className="players">
+                        <span>{item.Player}</span>
+                      </td>
+                      <td className="scores">
+                        <span>{item.Points}</span>
+                      </td>
+                      <td className="scores">
+                        <span>{item.Sets}</span>
+                      </td>
                       <td>
                         <Link to={"/edit"}>
                           <Button
+                            className="editButton"
                             onClick={() =>
                               handleEdit(
                                 item.id,
@@ -62,7 +77,10 @@ function Match() {
                           </Button>
                         </Link>
                         &nbsp;
-                        <Button onClick={() => handleDelete(item.id)}>
+                        <Button
+                          className="deleteButton"
+                          onClick={() => handleDelete(item.id)}
+                        >
                           Delete
                         </Button>
                       </td>
@@ -73,7 +91,9 @@ function Match() {
           </tbody>
         </Table>
         <Link className="d-grid gap-2" to="/create">
-          <Button size="lg">Add player</Button>
+          <Button id="add" size="lg">
+            Add player
+          </Button>
         </Link>
       </div>
     </Fragment>

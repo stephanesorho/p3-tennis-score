@@ -1,6 +1,6 @@
 import React from "react";
 import ballimg from "../images/ball.png";
-import "./footer.css";
+import "./css/footer.css";
 
 function Footer() {
   return (

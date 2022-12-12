@@ -1,5 +1,4 @@
 import React from "react";
-
 import BasePage from "./basePage.js";
 
 function ErrorPage() {
