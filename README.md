@@ -1,22 +1,30 @@
 # Project 3: Tennis Score App [deployment](https://tennis-score-app.onrender.com/)
 
-**60% Milestone**: Generated backend and fronted with db file implemented in backend
+## [Usability Study Report](https://docs.google.com/document/d/1Af3YKXUsz6LpSJlwvd_rjBlcDIbjodlz/edit?usp=sharing&ouid=111823684851826187074&rtpof=true&sd=true) | [Project Video](https://www.youtube.com/watch?v=ssaJ09h6N3c)
 
-**80% Milestone**: Worked on componenets in the front file - needed to work on section formatting add small CSS
+This website is an iteration on a prior version of a basic react application using primary web design concepts
 
-[Design document](https://docs.google.com/document/d/1VgwMKVsohhOsmwjhokl076lA_3WfCfzL/edit?usp=sharing&ouid=111823684851826187074&rtpof=true&sd=true) | [Project Video](https://youtu.be/HrXIgWXDpMA)
+### Design Elements
 
-This is basic react application was made to perform CRUD operations on a data table storing the scores of the players in a tennis match.
+The iteration of the app was achieved using the following color palette:
 
-The web application is made out of 2 pages: the scores page and the rules page
+![AdobeColor-My Color Theme](https://user-images.githubusercontent.com/97770592/207211455-9a21ab1e-d4ef-4fed-87c9-fb1b079c1bac.jpeg)
 
-![Screen Shot 2022-11-26 at 6 08 17 PM](https://user-images.githubusercontent.com/97770592/204116083-81f018e0-c0c1-4e97-bade-4a747f7cd6cd.png)
+Elements of these color palette are visible throughout the application:
 
-*When clicking on the Add Player button, this page with fields from the table pops up:
+##### Scoreboard:
 
-![Screen Shot 2022-11-27 at 4 02 07 PM](https://user-images.githubusercontent.com/97770592/204167029-c450b633-ad26-46f1-aeb0-00fb9e355814.png)
+![image](https://user-images.githubusercontent.com/97770592/207211219-f01f1ea3-e028-416a-9a55-277af14c6e1d.png)
 
+##### Rules:
 
-Use the navbar to access the rules page and navigate between pages
+![Screen Shot 2022-12-12 at 5 12 36 PM](https://user-images.githubusercontent.com/97770592/207211853-dbd80ac1-de9f-4f13-bcd5-e5b36101b09d.png)
 
-![Screen Shot 2022-11-26 at 6 09 27 PM](https://user-images.githubusercontent.com/97770592/204116109-dcf804e1-9193-49d4-a283-d454e8fd113e.png)
+To maintain consistency, the content of the main pages application was justified to the center
+
+### Keyboard Accessibility:
+
+To navigate the fields and buttons in the application (MAC): 
+
+Move forward: PRESS **TAB**
+Move backward: PRESS **Shift + TAB**
