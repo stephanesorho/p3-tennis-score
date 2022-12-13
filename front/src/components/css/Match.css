@@ -1,3 +1,5 @@
+/* https://www.fontspace.com/ride-the-fader-font-f12003 */
+
 @font-face {
   src: url(../../fonts/RideTheFader-1XKg.ttf);
   font-family: ride;
@@ -13,6 +15,12 @@ h1 {
 
 body {
   background: url("../../images/court_img.jpeg") no-repeat center center;
+}
+
+tbody {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .fragment {
@@ -55,6 +63,14 @@ button#add {
   font-family: Arial, Helvetica, sans-serif arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  background: #0f0b6d;
+  border: #0f0b6d;
+  text-decoration: none;
+}
+
+button#add:hover {
+  background: #060530;
+  text-decoration: none;
 }
 
 .editButton {
