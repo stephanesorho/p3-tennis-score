@@ -8,17 +8,18 @@ This website is an iteration on a prior version of a basic react application usi
 
 The iteration of the app was achieved using the following color palette:
 
-![AdobeColor-My Color Theme](https://user-images.githubusercontent.com/97770592/207211455-9a21ab1e-d4ef-4fed-87c9-fb1b079c1bac.jpeg)
+![Screen Shot 2022-12-12 at 6 43 14 PM](https://user-images.githubusercontent.com/97770592/207213473-db461c05-ccd7-4a52-9a24-0c9bea9ddab9.png)
+
 
 Elements of these color palette are visible throughout the application:
 
-##### Scoreboard:
+### Scoreboard:
 
-![image](https://user-images.githubusercontent.com/97770592/207211219-f01f1ea3-e028-416a-9a55-277af14c6e1d.png)
+![Screen Shot 2022-12-12 at 6 42 24 PM](https://user-images.githubusercontent.com/97770592/207213501-61d0858e-3504-47ff-b0cd-faed918ba33f.png)
 
-##### Rules:
+### Rules:
 
-![Screen Shot 2022-12-12 at 5 12 36 PM](https://user-images.githubusercontent.com/97770592/207211853-dbd80ac1-de9f-4f13-bcd5-e5b36101b09d.png)
+![Screen Shot 2022-12-12 at 6 42 42 PM](https://user-images.githubusercontent.com/97770592/207213525-5bbf604f-f317-4591-afcd-aabb12579990.png)
 
 To maintain consistency, the content of the main pages application was justified to the center
 
