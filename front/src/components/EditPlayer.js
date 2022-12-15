@@ -5,6 +5,16 @@ import Players from "./Players.js";
 import { useNavigate } from "react-router-dom";
 import "./css/EditPlayer.css";
 
+
+/*
+It was impressing that you were implementing the point storing system 
+in the table using hooks instead of classes and 
+handling the rendering of the page in a different way. 
+Good job! 
+*/
+
+
+
 function EditPlayer() {
   const [id, setId] = useState("");
   const [player, setPlayer] = useState("");
