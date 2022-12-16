@@ -29,3 +29,5 @@ To navigate the fields and buttons in the application (MAC):
 
 Move forward: PRESS **TAB**
 Move backward: PRESS **Shift + TAB**
+
+### / code review by Ming Hsiu Lee
